@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 23px;
+  font-size: 20px;
+}
+
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.menu {
+  text-align: center;
+  width: 90%;
+}
+
+body {
+  background-color: black;
+}
+
+#title {
+  font-family: monospace;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+footer {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
