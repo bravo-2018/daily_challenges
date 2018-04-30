@@ -130,7 +130,9 @@ function addTitle(person){
 function addTitle(person){
   return "Dr. " + person.firstName + " " + person.lastName
 }
-var people = [{firstName: "Alan", lastName: "Grant"}, {firstName: "Ellie", lastName: "Sattler"}, {firstName: "Ian", lastName: "Malcolm"}]
+var people = [
+  {firstName: "Alan", lastName: "Grant"}, {firstName: "Ellie", lastName: "Sattler"}, {firstName: "Ian", lastName: "Malcolm"}
+]
 var result = []
 for (let i = 0; i < people.length; i++){
   var title = addTitle(people[i]);
@@ -138,6 +140,8 @@ for (let i = 0; i < people.length; i++){
 }
 console.log(result)
 
+// Note from Class can add tite addTitle() peopleWithTitles.push(addTitie[i])
+//console.log("People with Titles Array" + peopleWithTitles) and added another consloe.log, Can run in terminal by using Nod
 
 // Exercise 12
 // Use map on the run addTitle on each element in the people array and store the result of each call into another array.
@@ -152,3 +156,8 @@ people.map(i => {
   result.push(title)
 })
 console.log(result)
+
+
+//Notes from Class: "map functions"
+//var peopleWithTitles = people.map(function(person(x){
+//  addTitie (x)})
